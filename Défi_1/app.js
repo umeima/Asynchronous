@@ -16,7 +16,7 @@ button.addEventListener('click',function loadData (){
             }
         }
     }
-    request.open('get', 'data.txt'); // Charger les données à partir  le fichier data.txt
+    request.open('get', 'data.txt');
     request.send();
 })
 
